@@ -1,1 +1,3 @@
 "# discordbot" 
+
+Asyncronous discord bot
