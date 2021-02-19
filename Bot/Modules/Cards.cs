@@ -6,8 +6,8 @@ namespace Bot.Modules
 {
     class Cards
     {
-        public string Number = string.Empty; //fastest way to initialise a string
-        public int Points = 0;
-        public string Suit = string.Empty;
+        public string Number { get; set; }
+        public int Points { get; set; }
+        public string Suit { get; set; }
     }
 }

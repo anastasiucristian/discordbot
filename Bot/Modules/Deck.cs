@@ -7,7 +7,7 @@ namespace Bot.Modules
 {
     class Deck
     {
-        public List<Cards> CardList = new List<Cards>(); //making a card list (can only be edited from methods)
+        public List<Cards> CardList { get; set; } //make this private after testing
 
         //method for initialising a deck
         public void initializeDeck()

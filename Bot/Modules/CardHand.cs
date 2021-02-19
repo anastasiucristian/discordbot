@@ -7,8 +7,9 @@ namespace Bot.Modules
 {
     class CardHand
     {
-        public int Points = 0;
-        public List<Cards> CardList = new List<Cards>();
+        public int Points { get; set; }
+        public List<Cards> CardList { get; set; }
+        public string Owner { get; set; }
 
         public void addCard(Cards card)
         {
